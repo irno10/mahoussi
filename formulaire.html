@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="formulaire.css"> 
+    </head>
+    <body  style="background-color:#C6FF00">
+    <fieldset style="border: 4 px  rgb(250, 10, 202) solid"><legend>Formulaire</legend>
+    <p> 
+        <ul>
+            <li><input type="checkbox"><label for="civilité">Mademoiselle</label></li>
+            <li><input type="checkbox"><label for="civilité">Madame</label></li>
+            <li><input type="checkbox"><label for="civilité">Monsieur</label></li>
+
+        </ul>
+    </p>
+    <fieldset style="border: 4 px black dotted"><legend>Etat Civil</legend>
+     <p>
+        <u>Nom:</u>
+        <input type="text" name="nom de famille" placeholder="Nom" required> 
+        <u>Prénoms:</u>
+        <input type="text" name="prénoms" placeholder="Prénoms" required>
+     </p>
+    
+     <p>
+        <u>Date de naissance:</u>
+        <input type="date" name="Naissance" >
+     </p>
+    </fieldset>
+    <fieldset style="border: 4 px black dotted"><legend>Profil</legend>
+     <p>
+        <u>Situation matrimoniale:</u>
+        <input type="text" name="situation matrimoniale" required >
+    </p>
+    <u>E-mail:</u>
+    <input type="mail" name="mail" placeholder="E-mail" required>
+    <br><u>Mot de passe:</u>
+    <input type="password" placeholder="Password" required>
+    <br><b>Photo:</b> 
+    <input type="file" placeholder="Choisir un fichier" required>
+    <div>
+        <u>Sexe:</u>
+        <input type="radio"><label for="sexe">Féminin</label>
+        <input type="radio"><label for="sexe">Masculin</label> 
+    </div>
+    <br>
+    <u>Pays d'origine:</u>
+    <select>
+        <option> Afrique du sud</option>
+        <option> Angola</option>
+        <option>Algérie</option>
+        <option> Bénin</option>
+        <option>Burkina-Faso</option>
+        <option>Cameroun</option>
+        <option>Cote d'Ivoire</option>
+        <option>Djibouti </option>
+        <option>Egypte</option>
+        <option>Ghana</option>
+        <option> Gabon</option>
+        <option> Gambie</option>
+        <option>Guinée-Bissau</option>
+        <option>Guinée-equatoriale</option>
+        <option> Kenya</option>
+        <option> Lybie</option>
+        <option> Mali</option>
+        <option>Maroc </option>
+        <option> Mauritanie</option>
+        <option> Nambie</option>
+        <option> Niger </option>
+        <option> Nigéria</option>
+        <option>Ouganda </option>
+        <option> RDC</option>
+        <option> Rwanda</option>
+        <option>Sénégal </option>
+        <option>Soudan</option>
+        <option>Somalie </option>
+        <option>Tchad</option>
+        <option>Togo</option>
+        <option>Tunisie </option>
+        <option>Zambie</option>
+        <option>Zimbabwe</option>
+    </select> 
+    <br>
+    <h4><i><u>Passe temps préferé</u></i></h4>
+    <ul>
+        <li><input type="checkbox">Musique</li>
+        <li><input type="checkbox">Danse</li>
+        <li><input type="checkbox">Lecture</li>
+        <li><input type="checkbox">Voyage</li>
+        <li><input type="checkbox">Musique</li>
+        <li><input type="checkbox">Sport</li>
+        <li><input type="checkbox">Autre à préciser</li> <input type="text" > <button type="submit"  style="color:red">Entrer</button>
+    </ul>
+</fieldset>
+     <button style="float: left;"><a href>Envoyer</a></button>
+     <button style="float: right;"><a href> Quitter</a></button>
+     <button style="float: center "><a href="">Effacer</a></button>
+</fieldset>
+</body
+</html> 
